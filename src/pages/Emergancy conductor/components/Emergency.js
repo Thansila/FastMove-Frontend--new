@@ -11,7 +11,7 @@ function Emergency() {
     <div className="main-login">
         
             <div class="right-side">  
-            <h2><center>Emergency</center></h2>
+            <h2><center>Inform Emergency</center></h2>
                     <form action="action_page.php">
 
                         <label for="eno">Emergency ID:</label>
