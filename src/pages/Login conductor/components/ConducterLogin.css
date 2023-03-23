@@ -1,0 +1,236 @@
+.Loginpage{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 42px;
+  }
+  
+  .Left{
+  padding-top: 20%;
+  text-align: center;
+    background-image: linear-gradient(to right,#e4e4e4,white);
+    position: fixed;
+    color: #1c473a;
+  }
+  .Left>h2{
+    font-style: italic;
+    font-weight: 3px;
+  }
+  
+  .Right{
+    padding-top: 10%;
+    right: 0;
+    background-image: linear-gradient(to right,white, #aac2be);
+    color: #1C6758;
+    text-align: center;
+  }
+  .Right>hr{
+    width: 50%;
+  }
+  
+  .submitbtn{
+    background-color:#1C6758;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    margin-right: 6%;
+    margin-left: 6%;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    height: 55px;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 15px; 
+    display: inline;
+    cursor: pointer;
+      padding: 0.5rem 1rem;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+  }
+  
+  
+  .submitbtn:hover{
+    background-color: #1c473a;
+    color: white;
+    outline: 0.5px solid #4dd6b6;
+    -webkit-box-shadow: 2px 2px 9px -2px #4dd6b6;
+            box-shadow: 2px 2px 9px -2px #4dd6b6;
+  }
+  
+  
+  .Learn{
+    background-color: white;
+    color: #1c473a;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    height: 55px;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 15px;
+    border: 2px solid #1c473a; 
+    display: inline;
+    cursor: pointer;
+      padding: 0.5rem 1rem;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+  }
+  
+  .Learn:hover{
+    background-color: #dff3ee;
+    color:1c473a;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 170px;
+    height: 55px;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 15px;
+    border: 2px solid #1c473a; 
+    display: inline;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color:#1C6758;
+    overflow: auto;
+  }
+  
+  .Name{
+    float: left;
+    padding: 12px;
+    background-color:#1c473a;
+    color: white;
+    font-style: italic;
+    font-weight: 3px;
+    font-size: 18px;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 12px;
+    background-color:#1C6758;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar a:hover {
+    background-color: #1c473a;
+    color: white;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  input[type=text], input[type=password] {
+    align-items: center;
+    width: 35%;
+    height: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 5%;
+    display: inline-block;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  } 
+  .Loginpage .Left.input:hover {
+    outline: 0.5px solid #4dd6b6;
+    -webkit-box-shadow: 2px 2px 9px -2px #4dd6b6;
+            box-shadow: 2px 2px 9px -2px #4dd6b6;
+  }
+  
+  
+  .Signupbtn {
+  background-color:#1C6758;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  margin-right: 6%;
+  margin-left: 6%;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  height: 55px;
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 15px; 
+  display: inline;
+  cursor: pointer;
+      padding: 0.5rem 1rem;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+  }
+  
+  .Signupbtn:hover {
+  background-color: #1c473a;
+  color: white;
+  -webkit-box-shadow: 4px 3px 9px -1px gray;
+  box-shadow: 4px 3px 9px -1px gray;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  }
+  
+  .Signupbtn:visited {
+  background-color:#1C6758;
+  color: yellow;
+  }
+  
+  
+    .googleLog{
+      background-color: #EEEEEE;
+      color:#474747;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 200px;
+      height: 45px;
+      opacity: 0.9;
+      font-weight: 4px;
+      font-size:small;
+      border: 0.25px solid #474747; 
+      display: inline;
+  }
+  
+  .googleLog:hover{
+      font-weight: lighter;
+      background-color: #EEEEEE;
+      color:blue;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 202px;
+      height: 45px;
+      opacity: 0.9;
+      font-weight: 4px;
+      font-size:small;
+      border: 0.25px solid blue; 
+      display: inline;
+  }
+  

@@ -1,0 +1,14 @@
+.Topbar{
+    margin-left: 30%;
+    padding: 20%;
+}
+
+.sidebar{
+    margin-top: 30%;
+    padding-top: 20%;
+}
+
+
+.flex{
+    display: flex;
+}
