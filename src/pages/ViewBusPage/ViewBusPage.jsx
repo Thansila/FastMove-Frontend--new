@@ -1,5 +1,5 @@
 import React from 'react'
-import TopBar from '../../components/topBar/TopBar'
+import BusownerTopBar from '../../components/BusownertopBar/BusownerTopBar'
 import ArrivalTable from '../../components/ViewBusescard/ViewBusescard'
 import Footer from '../../components/footer/Footer'
 

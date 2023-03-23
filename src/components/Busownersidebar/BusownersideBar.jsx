@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { useState } from 'react';
 
-export default function SideBar() {
+export default function BusownersideBar() {
 
     const [route, setRoute] = useState("");
   return (
@@ -35,7 +35,7 @@ export default function SideBar() {
         
         <hr class="sidebar-divider"/>
         <div class="sidebar-heading">
-            Time Keeper
+            Bus Owner
         </div>
 
         {/* Nav Item - Pages Collapse Menu  */}

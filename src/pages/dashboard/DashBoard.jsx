@@ -1,8 +1,6 @@
 import React from 'react'
 import "./dashboard.css"
 import { Route, Routes, Link } from "react-router-dom"
-import TopBar from '../../components/topBar/TopBar'
-import SideBar from '../../components/sidebar/SideBar'
 
 export default function DashBoard() {
   return (
