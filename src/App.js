@@ -31,13 +31,20 @@ function App() {
       <div >
       <Routes>
       
-        <Route path="/" element={<ADashBoardPage/>} />
+        <Route path="/" element={<DashBoardPage/>} />
+
         <Route path="/Busfarepage" element={<Busfarepagein />} />
         <Route path="/Servicespage" element={<Servicespageinn />} />
         <Route path="/Ownervarification" element={<Ownervarify />} />
         <Route path="/PassengerVerification" element={<PassengerVerify />} />
         <Route path="/ProfilePage" element={< ProfilePP />} />
         <Route path="/Activity" element={< ActivityShe />} />
+
+        <Route path="/BusReg" element={<BusRegPage/>} />
+        <Route path="/ViewBuses" element={<ViewBusPage/>} />
+        <Route path="/HelpPage" element={<HelpPage/>} />
+        <Route path="/HelpPage" element={<HelpPage/>} />
+        
       </Routes>
         
          
