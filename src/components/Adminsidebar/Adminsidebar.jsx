@@ -41,7 +41,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-user-circle"></i>
                 <span>Profile</span>
             </a>
         </li></Link>
@@ -49,7 +49,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-search-minus"></i>
                 <span>Inquiry</span>
             </a>
         </li></Link>
@@ -58,7 +58,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-credit-card" ></i>
                 <span>Bus Fare </span>
             </a>
         </li></Link>
@@ -70,7 +70,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="true" aria-controls="collapseTwo">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-user-circle"></i>
                 <span> User Verification</span>
             </a>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -86,7 +86,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-cog"></i>
                 <span>Activity Schedule</span>
             </a>
         </li></Link>
@@ -94,7 +94,7 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bus"></i>
+                <i class="fa fa-bell"></i>
                 <span>Services</span>
             </a>
         </li></Link>

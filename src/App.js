@@ -30,12 +30,7 @@ function App() {
     <div className="App">
       <div >
       <Routes>
-        <Route path="/" element={<DashBoardPage/>} />
-        <Route path="/BusReg" element={<BusRegPage/>} />
-        <Route path="/ViewBuses" element={<ViewBusPage/>} />
-        <Route path="/HelpPage" element={<HelpPage/>} />
-        <Route path="/route" element={<BusRoute name="Colombo-Kandy"/>} />
-        <Route path="/route_1" element={<BusRoute name="Colombo-Kalutara"/>} />
+      
         <Route path="/" element={<ADashBoardPage/>} />
         <Route path="/Busfarepage" element={<Busfarepagein />} />
         <Route path="/Servicespage" element={<Servicespageinn />} />
