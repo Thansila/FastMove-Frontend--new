@@ -41,18 +41,25 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-user-circle"></i>
-                <span>Profile</span>
+                <i class="fa fa-address-book"></i>
+                <span>Conductor Registration</span>
             </a>
         </li></Link>
-        <Link to="/HelpPage">
+
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-search-minus"></i>
-                <span>Inquiry</span>
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fa fa-bolt"></i>
+                <span> Inquiry</span>
             </a>
-        </li></Link>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+             
+              <Link to="/Ownerinquirypage"> <a class="collapse-item" href="/route"><i class="fa fa-user-circle"></i> Bus Owner</a></Link>
+              <Link to="/inquirypage"> <a class="collapse-item" href="/route_1"><i class="fa fa-user-circle"></i> Passenger</a></Link>
+                    </div>
+            </div>
+        </li>
       
         <Link to="/Busfarepage">
         <li class="nav-item">
@@ -76,8 +83,8 @@ export default function SideBarr() {
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
              
-              <Link to="/Ownervarification"> <a class="collapse-item" href="/route"><i class="fa fa-edit"></i> Bus Owner</a></Link>
-              <Link to="/PassengerVerification"> <a class="collapse-item" href="/route_1"><i class="fa fa-bars"></i> Passenger</a></Link>
+              <Link to="/Ownervarification"> <a class="collapse-item" href="/route"><i class="fa fa-user-circle"></i> Bus Owner</a></Link>
+              <Link to="/PassengerVerification"> <a class="collapse-item" href="/route_1"><i class="fa fa-user-circle"></i> Passenger</a></Link>
                     </div>
             </div>
         </li>
@@ -86,18 +93,11 @@ export default function SideBarr() {
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-cog"></i>
+                <i class="fa fa-bell"></i>
                 <span>Activity Schedule</span>
             </a>
         </li></Link>
-        <Link to="/Servicespage">
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fa fa-bell"></i>
-                <span>Services</span>
-            </a>
-        </li></Link>
+        
        
         
   </ul>

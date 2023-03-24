@@ -9,46 +9,107 @@ export default function Owner() {
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
   
                     
+                <thead>
+                        <tr>
+                            <th>Email </th>
+                            <th>Name</th>
+                            <th>NIC Scan Copy</th>
+                            <th>TP</th>
+                            <th>Address</th>
+                            <th>License</th>
+                            <th>Account NO</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+
+
+  
+                    
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td>First Name </td>
-                            <td> <input type="text"  name="Fname" id="Fname" required/></td>
-                           
+                            
+                            
+                             <th>
+                      
+                                <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                                
+                                </th>   
+                                
+                
                         </tr>
                        
                         <tr>
                             
-                            <td>Last Name</td>
+                        <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td> <input type="text"  name="Lname" id="Lname" required/></td>
-                                
+                          
+                          
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                               
+                              
+                            </th>    
                         </tr>
                         <tr>
+                        <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td>NIC</td>
-                            
-                            <td> <input type="text"  name="NIC" id="NIC" required/></td>
+
+
+
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                              
                                 
+                            </th>    
                         </tr>
                         <tr>
                       
-                            <td>Address</td>
-                           
-                            <td> <input type="text"  name="Address" id="Address" required/></td>
+                        <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td></td>
+                            
+
+
+
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
                                 
+                                
+                            </th>   
                         </tr>
                         
                         
                     </tbody>
                 </table>
-
-
-
-
-
-
-                
             </div>
         </div>
     </div>

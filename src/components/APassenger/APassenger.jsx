@@ -8,49 +8,102 @@ export default function Passenger() {
             <div class="table-responsive" >
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
   
+                <thead>
+                        <tr>
+                            <th>Email </th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>NIC Scan Copy</th>
+                            <th>Address</th>
+                            <th>TP</th>
+                            <th>Account NO</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+
+
+  
                     
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td>First Name </td>
-                            <td> <input type="text"  name="Fname" id="Fname" required/></td>
-                           
+                            
+                            
+                             <th>
+                      
+                                <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                                
+                                </th>   
+                                
+                
                         </tr>
                        
                         <tr>
                             
-                            <td>Last Name</td>
+                        <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td> <input type="text"  name="Lname" id="Lname" required/></td>
-                                
+                          
+                          
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                               
+                              
+                            </th>    
                         </tr>
                         <tr>
+                        <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
                             
-                            <td>NIC</td>
-                            
-                            <td> <input type="text"  name="NIC" id="NIC" required/></td>
+
+
+
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
+                              
                                 
+                            </th>    
                         </tr>
                         <tr>
                       
-                            <td>Address</td>
-                           
-                            <td> <input type="text"  name="Address" id="Address" required/></td>
+                        <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td> </td>
+                            <td> </td>
+                            <td></td>
+                            <td></td>
+                            
+
+
+
+                            <th>
+                            <button type="button" class="btn btn-warning ml-1">Cancel</button>
+                                <button type="button" class="btn btn-warning ml-1">Verify</button>
                                 
-                        </tr>
-                        <tr>
-                      
-                            <td>Phone Number</td>
-                           
-                            <td> <input type="text"  name="tp" id="tp" required/></td>
                                 
-                        </tr>
-                        <tr>
-                      
-                            <td>Account No</td>
-                           
-                            <td> <input type="text"  name="acc" id="acc" required/></td>
-                                
+                            </th>   
                         </tr>
                         
                         
@@ -61,3 +114,5 @@ export default function Passenger() {
     </div>
   )
 }
+
+                

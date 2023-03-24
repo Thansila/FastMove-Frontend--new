@@ -13,8 +13,6 @@ import ADashBoard from "./pages/Adashboard/ADashBoard";
 import ADashBoardPage from "./pages/Adashboard";
 import Busfarepage from "./pages/Busfarepage/Busfarepage";
 import Busfarepagein from "./pages/Busfarepage";
-import Servicespage from "./pages/Servicespage/Servicespage";
-import Servicespageinn from "./pages/Servicespage";
 import Ownervarification from "./pages/Ownervarification/Ownervarification";
 import Ownervarify from "./pages/Ownervarification";
 import PassengerVerification from "./pages/PassengerVerification/PassengerVerification";
@@ -23,7 +21,10 @@ import Activity from "./pages/Activity/Activity";
 import ActivityShe from "./pages/Activity";
 import ProfilePage from "./pages/ProfilePage";
 import ProfilePP from "./pages/ProfilePage";
-
+import Ownerinquirypage from "./pages/Ownerinquirypage";
+import Ownerinquiryy from "./pages/Ownerinquirypage";
+import inquirypage from "./pages/inquirypage";
+import Passegerinquiryyy from "./pages/inquirypage";
 
 function App() {
   return (
@@ -33,11 +34,13 @@ function App() {
       
         <Route path="/" element={<ADashBoardPage/>} />
         <Route path="/Busfarepage" element={<Busfarepagein />} />
-        <Route path="/Servicespage" element={<Servicespageinn />} />
+       
         <Route path="/Ownervarification" element={<Ownervarify />} />
         <Route path="/PassengerVerification" element={<PassengerVerify />} />
         <Route path="/ProfilePage" element={< ProfilePP />} />
         <Route path="/Activity" element={< ActivityShe />} />
+        <Route path="/Ownerinquirypage" element={< Ownerinquiryy />} />
+        <Route path="/inquirypage " element={<Passegerinquiryyy  />} />
       </Routes>
         
          

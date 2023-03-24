@@ -1,17 +1,17 @@
 import React from "react";
 import Adminsidebar from "../../components/Adminsidebar/Adminsidebar";
 import AdminTopBar from "../../components/AdmintopBar/AdmintopBar";
-import ServicesAdmin from "../../components/ServicesAdmin/ServicesAdmin";
-import Servicespage from "./Servicespage";
-import "./Servicespage.css"
-export default function Servicespageinn(){
+import Passengerinquiry from "../../components/Passengerinquiry/Passengerinquiry";
+import inquirypage from "./inquirypage";
+import "./inquirypage";
+export default function Passegerinquiryyy(){
     return(
-        <div className="Busfarepage">
+        <div className="inquirypassenger">
 
               <div className="AdminTopBar"> <AdminTopBar/></div>
               <div className="flex">
               <div className="Adminsidebar"> <Adminsidebar/></div>
-                <div className="Dash"> <Servicespage/></div>            
+                <div className="Dash"> <inquirypage/></div>            
                    
                 </div>
          </div>

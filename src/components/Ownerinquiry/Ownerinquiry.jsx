@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Profile() {
+export default function Ownerinquiry() {
   return (
     <div class="card shadow mb-4">
         
@@ -9,27 +9,26 @@ export default function Profile() {
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
                 <thead>
                         <tr>
-                            <th>Conductor ID </th>
-                            <th>User name</th>
-                            <th>Password </th>
-                            <th>Mobile Number </th>
-                            <th>Email</th>
-                            <th>NIC</th>
+                            <th>Email </th>
+                            <th>Bus No</th>
+                            <th>Complains </th>
+                            
                             <th>Action</th>
                         </tr>
                     </thead>
 
-                     
+
+
+  
+                    
                     <tbody>
                         <tr>
                             <td></td>
                             <td> </td>
                             <td> </td>
-                            <th> </th>
-                            <th> </th>
-                            <th> </th>
+                            
                              <th>
-                             <button type="button" class="btn btn-primary ml-1">Edit</button>
+                      
                                 <button type="button" class="btn btn-warning ml-1">Delete</button>
                                 
                                 </th>   
@@ -42,11 +41,10 @@ export default function Profile() {
                             <td></td>
                             <td> </td>
                             <td> </td>
-                            <th> </th>
-                            <th> </th>
-                            <th> </th>
+                          
+                          
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Edit</button>
+                           
                                 <button type="button" class="btn btn-warning ml-1">Delete</button> 
                               
                             </th>    
@@ -56,12 +54,12 @@ export default function Profile() {
                             <td></td>
                             <td> </td>
                             <td> </td>
-                            <th> </th>
-                            <th> </th>
-                            <th> </th>
+                           
+
+
 
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Edit</button>
+                           
                                 <button type="button" class="btn btn-warning ml-1">Delete</button>   
                                 
                             </th>    
@@ -71,31 +69,17 @@ export default function Profile() {
                             <td></td>
                             <td> </td>
                             <td> </td>
-                            <th> </th>
-                            <th> </th>
-                            <th> </th>
+                            
+
+
 
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Edit</button>
+                      
                                 <button type="button" class="btn btn-warning ml-1">Delete</button>    
                                 
                             </th>   
                         </tr>
-                        <tr>
-                      
-                      <td></td>
-                      <td> </td>
-                      <td> </td>
-                      <th> </th>
-                      <th> </th>
-                      <th> </th>
-
-                      <th>
-                      <button type="button" class="btn btn-primary ml-1">Edit</button>
-                          <button type="button" class="btn btn-warning ml-1">Delete</button>    
-                          
-                      </th>   
-                  </tr>
+                        
                         
                     </tbody>
                 </table>
@@ -104,5 +88,3 @@ export default function Profile() {
     </div>
   )
 }
-
-                    
