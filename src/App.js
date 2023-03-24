@@ -11,8 +11,8 @@ import BusRegPage from "./pages/busReg";
 import Footer from "./components/footer/Footer";
 import ADashBoard from "./pages/Adashboard/ADashBoard";
 import ADashBoardPage from "./pages/Adashboard";
-import Index from "./pages/ABusfarepage/ABusfarepage";
-import Busfarepagein from "./pages/ABusfarepage/index";
+import Busfarepage from "./pages/Busfarepage/Busfarepage";
+import Busfarepagein from "./pages/Busfarepage";
 import Servicespage from "./pages/Servicespage/Servicespage";
 import Servicespageinn from "./pages/Servicespage";
 import Ownervarification from "./pages/Ownervarification/Ownervarification";
@@ -21,8 +21,8 @@ import PassengerVerification from "./pages/PassengerVerification/PassengerVerifi
 import PassengerVerify from "./pages/PassengerVerification";
 import Activity from "./pages/Activity/Activity";
 import ActivityShe from "./pages/Activity";
-import Profile from "./components/Profile/Profile";
-import ProfilePP from  "./pages/ProfilePage";
+import ProfilePage from "./pages/ProfilePage";
+import ProfilePP from "./pages/ProfilePage";
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
         <Route path="/route" element={<BusRoute name="Colombo-Kandy"/>} />
         <Route path="/route_1" element={<BusRoute name="Colombo-Kalutara"/>} />
         <Route path="/" element={<ADashBoardPage/>} />
-        <Route path="/ABusfarepage" element={<Busfarepagein />} />
+        <Route path="/Busfarepage" element={<Busfarepagein />} />
         <Route path="/Servicespage" element={<Servicespageinn />} />
         <Route path="/Ownervarification" element={<Ownervarify />} />
         <Route path="/PassengerVerification" element={<PassengerVerify />} />
