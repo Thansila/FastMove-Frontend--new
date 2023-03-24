@@ -38,6 +38,20 @@ export default function Passenger() {
                             <td> <input type="text"  name="Address" id="Address" required/></td>
                                 
                         </tr>
+                        <tr>
+                      
+                            <td>Phone Number</td>
+                           
+                            <td> <input type="text"  name="tp" id="tp" required/></td>
+                                
+                        </tr>
+                        <tr>
+                      
+                            <td>Account No</td>
+                           
+                            <td> <input type="text"  name="acc" id="acc" required/></td>
+                                
+                        </tr>
                         
                         
                     </tbody>

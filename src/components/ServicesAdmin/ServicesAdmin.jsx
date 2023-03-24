@@ -45,7 +45,13 @@ export default function Services() {
                             <td> <input type="text"  name="email" id="email" required/></td>
                                 
                         </tr>
-                        
+                        <tr>
+                       
+                       <td>NIC</td>
+                       
+                       <td> <input type="text"  name="nic" id="nic" required/></td>
+                           
+                   </tr>
                     </tbody>
                 </table>
             </div>
