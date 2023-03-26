@@ -24,7 +24,7 @@ import ProfilePP from "./pages/ProfilePage";
 import Ownerinquirypage from "./pages/Ownerinquirypage";
 import Ownerinquiryy from "./pages/Ownerinquirypage";
 import inquirypage from "./pages/inquirypage";
-import Passegerinquiryyy from "./pages/inquirypage";
+import Passegerinquiryyy from"./pages/inquirypage";
 
 function App() {
   return (
@@ -40,7 +40,7 @@ function App() {
         <Route path="/ProfilePage" element={< ProfilePP />} />
         <Route path="/Activity" element={< ActivityShe />} />
         <Route path="/Ownerinquirypage" element={< Ownerinquiryy />} />
-        <Route path="/inquirypage " element={<Passegerinquiryyy  />} />
+        <Route path="/inquirypage " element={<Passegerinquiryyy/>} />
       </Routes>
         
          

@@ -28,9 +28,8 @@ export default function Passengerinqui() {
                             <td> </td>
                             
                              <th>
-                      
-                                <button type="button" class="btn btn-warning ml-1">Delete</button>
-                                
+                             <button type="button" class="btn btn-primary ml-1">Delete</button>                     
+                                <button type="button" class="btn btn-warning ml-1">Display</button>
                                 </th>   
                                 
                 
@@ -45,8 +44,8 @@ export default function Passengerinqui() {
                           
                             <th>
                            
-                                <button type="button" class="btn btn-warning ml-1">Delete</button> 
-                              
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
+                                <button type="button" class="btn btn-warning ml-1">Display</button>
                             </th>    
                         </tr>
                         <tr>
@@ -60,8 +59,8 @@ export default function Passengerinqui() {
 
                             <th>
                            
-                                <button type="button" class="btn btn-warning ml-1">Delete</button>   
-                                
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
+                                <button type="button" class="btn btn-warning ml-1">Display</button>
                             </th>    
                         </tr>
                         <tr>
@@ -75,8 +74,8 @@ export default function Passengerinqui() {
 
                             <th>
                       
-                                <button type="button" class="btn btn-warning ml-1">Delete</button>    
-                                
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
+                                <button type="button" class="btn btn-warning ml-1">Display</button>
                             </th>   
                         </tr>
                         
