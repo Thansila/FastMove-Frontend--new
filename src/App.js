@@ -4,7 +4,7 @@ import ViewBusPage from "./pages/ViewBusPage";
 import { Route, Routes } from "react-router-dom"
 import HelpPage from "./pages/HelpPage";
 import BusRoute from "./pages/busReg/BusReg";
-import Homepage from "./pages/Homepage/Homepage";
+import GetStarted from "./pages/Homepage";
 import DashBoard from "./pages/dashboard/DashBoard";
 import DashBoardPage from "./pages/dashboard";
 import BusRegPage from "./pages/busReg";
@@ -24,6 +24,9 @@ import ActivityShe from "./pages/Activity";
 import ProfilePage from "./pages/ProfilePage";
 import ProfilePP from "./pages/ProfilePage";
 
+import Signin from "./pages/SigninCharPage";
+import Homepage from "./pages/Homepage/Homepage";
+import SigninCharPage from "./pages/SigninCharPage/SigninCharPage";
 
 function App() {
   return (
@@ -31,7 +34,8 @@ function App() {
       <div >
       <Routes>
       
-        <Route path="/" element={<DashBoardPage/>} />
+        <Route path="/" element={<Homepage/>} />
+        <Route path="/SignInchar" element={<Signin/>} />
 
         <Route path="/Busfarepage" element={<Busfarepagein />} />
         <Route path="/Servicespage" element={<Servicespageinn />} />
