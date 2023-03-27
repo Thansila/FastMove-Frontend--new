@@ -9,6 +9,7 @@ export default function Ownerinquiry() {
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
                 <thead>
                         <tr>
+                            <th>Inquiry ID</th>
                             <th>Email </th>
                             <th>Bus No</th>
                             <th>Complains </th>
@@ -22,6 +23,7 @@ export default function Ownerinquiry() {
                     
                     <tbody>
                         <tr>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -36,7 +38,7 @@ export default function Ownerinquiry() {
                         </tr>
                        
                         <tr>
-                            
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -49,7 +51,7 @@ export default function Ownerinquiry() {
                             </th>    
                         </tr>
                         <tr>
-                            
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -64,7 +66,7 @@ export default function Ownerinquiry() {
                             </th>    
                         </tr>
                         <tr>
-                      
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>

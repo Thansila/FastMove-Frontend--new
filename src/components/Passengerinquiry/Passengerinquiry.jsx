@@ -9,6 +9,7 @@ export default function Passengerinqui() {
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
                 <thead>
                         <tr>
+                            <th>Inquiry ID</th>
                             <th>Email </th>
                             <th>Bus No</th>
                             <th>Complains </th>
@@ -23,6 +24,7 @@ export default function Passengerinqui() {
                     
                     <tbody>
                         <tr>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -36,7 +38,7 @@ export default function Passengerinqui() {
                         </tr>
                        
                         <tr>
-                            
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -49,7 +51,7 @@ export default function Passengerinqui() {
                             </th>    
                         </tr>
                         <tr>
-                            
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -64,7 +66,8 @@ export default function Passengerinqui() {
                             </th>    
                         </tr>
                         <tr>
-                      
+                            
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
