@@ -2,7 +2,7 @@ import React from "react";
 import Passengerinquiry from "../../components/Passengerinquiry/Passengerinquiry";
 import Footer from "../../components/footer/Footer";
 
-export default function passengerINQU(props) {
+export default function passengervv(props) {
     console.log(props);
     
 

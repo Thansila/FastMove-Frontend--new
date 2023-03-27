@@ -39,7 +39,7 @@ export default function Passenger() {
                             
                              <th>
                       
-                             <button type="button" class="btn btn-primary ml-1">Canccel</button>
+                             <button type="button" class="btn btn-primary ml-1">Delete</button>
                                 <button type="button" class="btn btn-warning ml-1">Verify</button>
                                 
                                 </th>   
@@ -60,7 +60,7 @@ export default function Passenger() {
                           
                           
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Cancel</button>
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
                                 <button type="button" class="btn btn-warning ml-1">Verify</button>
                                
                               
@@ -79,7 +79,7 @@ export default function Passenger() {
 
 
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Cancel</button>
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
                                 <button type="button" class="btn btn-warning ml-1">Verify</button>
                               
                                 
@@ -99,7 +99,7 @@ export default function Passenger() {
 
 
                             <th>
-                            <button type="button" class="btn btn-primary ml-1">Cancel</button>
+                            <button type="button" class="btn btn-primary ml-1">Delete</button>
                                 <button type="button" class="btn btn-warning ml-1">Verify</button>
                                 
                                 
