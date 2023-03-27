@@ -1,9 +1,9 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
-import './Homepage.css'
+import SigninChar from '../../components/SigninChar/SigninChar'
 import { Link } from 'react-router-dom'
 
-export default function Homepage(){
+export default function SigninCharPage(){
     return(
         <div>
 
@@ -26,10 +26,10 @@ export default function Homepage(){
 
         </ul>
 
-    </nav> 
+    </nav>
 
-
-<Link to="/SignInchar"><button type="button" onClick={""} class="btn btn-primary ml-1">Get Started</button></Link>
+    <SigninChar/> 
+    
 
         </div>
     )
