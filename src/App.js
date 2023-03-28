@@ -23,9 +23,10 @@ import ProfilePage from "./pages/ProfilePage";
 import ProfilePP from "./pages/ProfilePage";
 import Ownerinquirypage from "./pages/Ownerinquirypage";
 import Ownerinquiryy from "./pages/Ownerinquirypage";
-import inquirypage from "./pages/inquirypage";
-import Passegerinquiryyy from "./pages/inquirypage";
-
+import Pinquirypage from "./pages/Pinquirypage";
+import inqiryyypage from "./pages/Pinquirypage";
+import Adminlogin from "./pages/Adminlogin/Adminlogin";
+import loginn from "./pages/Adminlogin";
 function App() {
   return (
     <div className="App">
@@ -39,7 +40,12 @@ function App() {
         <Route path="/ProfilePage" element={< ProfilePP />} />
         <Route path="/Activity" element={< ActivityShe />} />
         <Route path="/Ownerinquirypage" element={< Ownerinquiryy />} />
-        <Route path="/inquirypage" element={<Passegerinquiryyy/>} />
+        <Route path="/Adminlogin" element={<Adminlogin/>} />
+       
+       
+ 
+        
+
       </Routes>
         
          

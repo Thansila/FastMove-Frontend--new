@@ -3,7 +3,7 @@ import Adminsidebar from "../../components/Adminsidebar/Adminsidebar";
 import AdminTopBar from "../../components/AdmintopBar/AdmintopBar";
 import Ownerinquiry from "../../components/Ownerinquiry/Ownerinquiry";
 import Ownerinquirypage from "./Ownerinquirypage";
-import "./Ownerinquirypage";
+import "./Ownerinquirypage.css";
 export default function Ownerinquiryy(){
     return(
         <div className="ownerinquiry">

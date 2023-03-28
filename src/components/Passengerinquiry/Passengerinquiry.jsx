@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Passengerinqui() {
+export default function passengerinquiry() {
   return (
     <div class="card shadow mb-4">
         
@@ -13,7 +13,6 @@ export default function Passengerinqui() {
                             <th>Email </th>
                             <th>Bus No</th>
                             <th>Complains </th>
-                            
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -25,12 +24,14 @@ export default function Passengerinqui() {
                     <tbody>
                         <tr>
                         <td></td>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
                             
                              <th>
-                             <button type="button" class="btn btn-primary ml-1">Delete</button>                     
+                      
+                             <button type="button" class="btn btn-primary ml-1">Delete</button>
                                 <button type="button" class="btn btn-warning ml-1">Display</button>
                                 </th>   
                                 
@@ -38,6 +39,7 @@ export default function Passengerinqui() {
                         </tr>
                        
                         <tr>
+                        <td></td> 
                         <td></td>
                             <td></td>
                             <td> </td>
@@ -52,6 +54,7 @@ export default function Passengerinqui() {
                         </tr>
                         <tr>
                         <td></td>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -66,7 +69,7 @@ export default function Passengerinqui() {
                             </th>    
                         </tr>
                         <tr>
-                            
+                        <td></td>
                         <td></td>
                             <td></td>
                             <td> </td>

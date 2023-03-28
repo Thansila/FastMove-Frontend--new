@@ -1,18 +1,21 @@
+
 import React from "react";
 import Adminsidebar from "../../components/Adminsidebar/Adminsidebar";
 import AdminTopBar from "../../components/AdmintopBar/AdmintopBar";
-import Passengerinqui from "../../components/Passengerinquiry/Passengerinquiry";
-import inquirypage from "./inquirypage";
-import "./inquirypage.css";
+import passengerinquiry from "../../components/Passengerinquiry/Passengerinquiry";
+import Pinquirypage from "./Pinquirypage";
+import "./Pinquirypage.css";
 
-export default function Passenger(){
+export default function inqiryyypage(){
     return(
-        <div className="inquirypassenger">
+        <div className="ownerinquiry">
 
               <div className="AdminTopBar"> <AdminTopBar/></div>
               <div className="flex">
               <div className="Adminsidebar"> <Adminsidebar/></div>
-            <div className="Dash"> <inquirypage/></div>         
+                <div className="Dash"> <Pinquirypage/></div>    
+
+                     
                    
                 </div>
          </div>

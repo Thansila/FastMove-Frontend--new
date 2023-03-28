@@ -24,6 +24,7 @@ export default function Ownerinquiry() {
                     <tbody>
                         <tr>
                         <td></td>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -38,6 +39,7 @@ export default function Ownerinquiry() {
                         </tr>
                        
                         <tr>
+                        <td></td> 
                         <td></td>
                             <td></td>
                             <td> </td>
@@ -52,6 +54,7 @@ export default function Ownerinquiry() {
                         </tr>
                         <tr>
                         <td></td>
+                        <td></td>
                             <td></td>
                             <td> </td>
                             <td> </td>
@@ -66,6 +69,7 @@ export default function Ownerinquiry() {
                             </th>    
                         </tr>
                         <tr>
+                        <td></td>
                         <td></td>
                             <td></td>
                             <td> </td>
