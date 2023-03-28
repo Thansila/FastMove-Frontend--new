@@ -28,7 +28,19 @@ export default function SigninCharPage(){
 
     </nav>
 
-    <SigninChar/> 
+    <div className='screen'>
+<div class="split left">
+  <div class="centered">
+  <SigninChar/>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <p>/Logo/</p>
+  </div>
+</div> 
+</div> 
     
 
         </div>
