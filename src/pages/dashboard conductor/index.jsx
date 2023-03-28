@@ -1,9 +1,9 @@
 import React from "react";
 import SideBar from "../../components/sidebar/SideBar";
 import TopBar from "../../components/topBar/TopBar";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 import DashBoardConductor from "./DashBoardConductor";
-import "./dashboard.css"
+import "./index.css"
 
 export default function DashBoardPageConductor(){
     return(

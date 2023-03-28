@@ -1,11 +1,11 @@
 import React from "react";
 import SideBar from "../../components/sidebar/SideBar";
 import TopBar from "../../components/topBar/TopBar";
-import Profile from "./Profile.js.js";
-import "./index.css"
+import Profile from "./components/Profile";
 
 
-export default function Profile(){
+
+export default function ProfilePage(){
     return(
         <div className="BusRegPage">
 

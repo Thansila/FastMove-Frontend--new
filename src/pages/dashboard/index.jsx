@@ -2,7 +2,7 @@ import React from "react";
 import BusownersideBar from "../../components/Busownersidebar/BusownersideBar";
 import BusownerTopBar from "../../components/BusownertopBar/BusownerTopBar";
 import DashBoard from "./DashBoard";
-import "./dashboard.css"
+import './dashboard.css'
 
 export default function DashBoardPage(){
     return(

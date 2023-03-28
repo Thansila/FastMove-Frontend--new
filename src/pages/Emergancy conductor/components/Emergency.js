@@ -1,17 +1,14 @@
 import React  from 'react';
 import './Emergency.css';
 
-
-
-
 function Emergency() {
 
     return (
           
     <div className="main-login">
-        
+        <h2><center>Inform Emergency</center></h2>
             <div class="right-side">  
-            <h2><center>Inform Emergency</center></h2>
+            
                     <form action="action_page.php">
 
                         <label for="eno">Emergency ID:</label>

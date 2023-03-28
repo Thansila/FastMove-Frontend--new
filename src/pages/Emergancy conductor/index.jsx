@@ -1,11 +1,11 @@
 import React from "react";
 import SideBar from "../../components/sidebar/SideBar";
 import TopBar from "../../components/topBar/TopBar";
-import Emergency from "./Emergency.js.js";
-import "./Emergency.css"
+import Emergency from "./components/Emergency";
+import "./components/Emergency.css"
 
 
-export default function BusRegPage(){
+export default function EmergencyPage(){
     return(
         <div className="BusRegPage">
 

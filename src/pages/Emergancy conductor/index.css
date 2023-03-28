@@ -6,7 +6,7 @@
 .sidebar{
     margin-top: -5%;
     height: 100%;
-    
+    position:fixed;
 }
 
 
