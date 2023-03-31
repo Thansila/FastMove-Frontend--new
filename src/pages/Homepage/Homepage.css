@@ -1,6 +1,5 @@
 .screen{
-    background-image: linear-gradient(to right,white, #879993);
-    background-color: #879993;
+    background-image: linear-gradient(to right, white , #73BFB8);
 }
 
 .split {
@@ -8,17 +7,17 @@
     width: 50%;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top:0;
     overflow-x: hidden;
     padding-top: 20px;
   }
   
   .left {
-    left: 0;
+    left: o;
   }
   
   .right {
-    right: 0;
+    right:0;
    
   }
   
@@ -31,15 +30,17 @@
   }
   
   .centered img {
-    width: 150px;
-    border-radius: 50%;
+    width: 150%;
+    /* border-radius: 100%; */
+    align-items: center;
+    padding-right: 29px;
+    padding-left: 0%;
+    margin-right: 30px;
+    
   }
+
   
-  .btn{
-    width:125px;
-    height: 50px;
-    font-size: large;
-  }
+ 
 
   /* #01281a */
   /* #f6c23e */

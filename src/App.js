@@ -28,13 +28,14 @@ import Signin from "./pages/SigninCharPage";
 import Homepage from "./pages/Homepage/Homepage";
 import SigninCharPage from "./pages/SigninCharPage/SigninCharPage";
 
+
 function App() {
   return (
     <div className="App">
       <div >
       <Routes>
       
-        <Route path="/" element={<Homepage/>} />
+        <Route path="/" element={<GetStarted/>} />
         <Route path="/SignInchar" element={<Signin/>} />
 
         <Route path="/Busfarepage" element={<Busfarepagein />} />
@@ -49,8 +50,7 @@ function App() {
         <Route path="/HelpPage" element={<HelpPage/>} />
         <Route path="/HelpPage" element={<HelpPage/>} />
         
-      </Routes>
-        
+      </Routes>     
          
       </div>
     </div>

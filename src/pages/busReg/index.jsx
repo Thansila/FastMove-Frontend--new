@@ -3,6 +3,7 @@ import BusownersideBar from "../../components/Busownersidebar/BusownersideBar";
 import BusownerTopBar from "../../components/BusownertopBar/BusownerTopBar";
 import BusReg from "./BusReg.jsx";
 import "./BusReg.css"
+import Footer from "../../components/footer/Footer";
 
 
 export default function BusRegPage(){
@@ -14,6 +15,9 @@ export default function BusRegPage(){
               <div className="sidebar"> <BusownersideBar/></div>
                 <div className="Dash"> <BusReg/></div>            
                    
+                </div>
+                <div className='ftr'>
+                    <Footer/>
                 </div>
          </div>
 

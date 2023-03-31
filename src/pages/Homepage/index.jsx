@@ -1,15 +1,18 @@
 import React from "react";
 import Homepage from "./Homepage";
-import './Homepage.css'
+
+import"./index.css"
 import Footer from "../../components/footer/Footer";
 
 export default function GetStarted(){
     return(
 
-              <div> 
+              <div className="home--box"> 
 
               <Homepage/>
-              <Footer/>
+
+              
+            
               </div>           
 
 

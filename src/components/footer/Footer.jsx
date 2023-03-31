@@ -4,16 +4,11 @@ import React from 'react'
   return (
     <div>
          
-        <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Bus Pass Application:2023</span>
-                    </div>
-                </div>
-        </footer>
+         <footer>
+        &copy; 2023 FastMove | All rights reserved
+      </footer>
       
-      
-    </div>
+      </div>
   )
 }
 export default Footer;
