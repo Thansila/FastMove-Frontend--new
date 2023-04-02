@@ -12,7 +12,7 @@ export default function SideBar() {
         
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+                <i class="fa fa-bus"></i>
             </div>
             <Link to='/' class="nav-link" style={{color: "white"}}>
                 <div class="mx-3">FastMove</div>
@@ -22,8 +22,6 @@ export default function SideBar() {
 
         
         <hr class="sidebar-divider my-0"/>
-
-        
         <li class="nav-item active">
             
                 <Link to='/' class="nav-link">
@@ -40,7 +38,7 @@ export default function SideBar() {
 
         {/* Nav Item - Pages Collapse Menu  */}
 
-        <Link to="/MySchedule">
+        <Link to="/Scan">
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
@@ -72,7 +70,24 @@ export default function SideBar() {
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities">
                 <i class="fa fa-calendar"></i>
-                <span>  Activity Schedule</span>
+                <span>Activity Schedule</span>
+            </a>
+        </li></Link>
+        <Link to="/HelpPage">
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fa fa-question-circle"></i>
+                <span>Help</span>
+            </a>
+        </li></Link>
+        <br/>  <br/>
+        <Link to='/' class="nav-link">
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#"  data-target="#collapseUtilities"
+                aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fa fa-chevron-circle-left"></i>
+                <span>Back</span>
             </a>
         </li></Link>
         

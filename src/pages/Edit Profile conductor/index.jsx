@@ -1,6 +1,6 @@
 import React from "react";
 import SideBar from "../../components/sidebar/SideBar";
-import TopBar from "../../components/topBar/TopBar";
+import TopBar from "../../components/ConducoronductortopBar/TopBar";
 import EditProfile from "./EditProfile.js";
 
 

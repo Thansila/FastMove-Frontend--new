@@ -1,55 +1,57 @@
 import React from 'react'
+import "./conductorSchedule.css"
 
 export default function conductorSchedule() {
   return (
+    <div className='tablestyle'>
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Conductor Schedule </h6>
+            <h6 class="m-0 font-weight-bold text-primary">Veiw Conductor Schedule </h6>
             
         </div>
-        <div class="card-body">
+        <br/>
+     
+      <div>
+      <label>Conductor Id:</label>
+      <input type="number" class="input" />
+      <label>Date:</label>
+      <input type="Date" class="input" />
+      </div>
+      
+            <div class="card-body">
             <div class="table-responsive" >
-                <table class="table table-bordered" id="dataTable" width="50%" cellspacing="0" >
-  
-                    
+            <table class="table table-bordered" id="dataTable" width="0%" cellspacing="0" >
+            
+        
+    
+            <br/>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td> Conductor Name</td>
-                            <td> <input type="text"  name="cname" id="cname" required/></td>
+                            <th class="header">Bus Number</th>
+                            <th class="header">Route Number</th>
+                            <th class="header">Ride ID</th>
+                            <th class="header" >Route</th>
+                            <th class="header">Date</th>
+                            <th class="header">Time(Arrival time-Depature time)</th>
+
                            
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>NIC</td>
-                            <td> <input type="text"  name="nic" id="nic" required/></td>
+                            <td>1000</td>
+                            <td>255</td>
+                            <td>Mount Lavinia to Kottawa </td>
+                            <td>25</td>
+                            <td>01/04/2023 </td>
+                            <td>2.00pm-3.00pm </td>
                             
                         </tr>
-                        <tr>
-                            <td>1</td>
-                            <td> Contact Number</td>
-                            <td> <input type="number"  name="pnumber" id="pnumber" required/></td>
-                           
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td> Email</td>
-                            <td> <input type="text"  name="email" id="email" required/></td>
-                           
-                        </tr>
-
-                        <tr>
-                            <td>3</td>
-                            <td>Conductor License</td>
-                            <th>
-                            <input type="file" id="Conlisencepdf" name="Conlisencepdf" className="fileSub"></input>
-                                </th>
-                        </tr>
-                       
+                        
                     </tbody>
                 </table>
             </div>
         </div>
+       
+    </div>
     </div>
   )
 }

@@ -5,40 +5,89 @@ function Emergency() {
 
     return (
           
-    <div className="main-login">
-        <h2><center>Inform Emergency</center></h2>
-            <div class="right-side">  
-            
-                    <form action="action_page.php">
-
-                        <label for="eno">Emergency ID:</label>
-                        <input type="text" id="eno" name="eno" />
-
-
-                        <label for="ename">Emergency Type:</label>
-                        <input type="text" id="ename" name="ename" />
-
-                        <label for="bno">Bus No:</label>
-                        <input type="number" id="bno" name="bno" />
-
-                        <label for="route">Route No & Name  :</label>
-                        <input type="text" id="route" name="route" />
-
-                        <label for="time">Time:</label>
-                        <input type="time" id="time" name="time" />
-
-                        <label for="time">Location:</label>
-                        <input type="url" id="time" name="time" />
-
-                        
-
-                        <input type="button" className=" btn submit" value="SEND"/>
-
-                        </form>          
-                    </div>
-                    
-                </div>
-           
+   
+     <div class="container-fluid">   
+        <h2 class= "black">Inform Emergency</h2>
+        <div class="m-4">
+    <div class="row g-2">
+    <br/><br/>
+    <div class="col-6">
+            <div class="input-group">
+                <label class="input-group-text">Emergency ID:</label>
+                <input type="number" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Emergency Type:</span>
+                <input type="text" class="form-control" />
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text"> Bus No:</span>           
+                <input type="number" class="form-control"/>
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Bus Name:</span>
+                <input type="text" class="form-control"/>
+            </div>
+        </div>
+        <br/><br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Route No:</span>
+                <input type="number" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Route Name:</span>
+                <input type="number" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Date:</span>
+                <input type="date" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">Time:</span>
+                <input type="time" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="col-12">
+            <div class="input-group">
+                <span class="input-group-text">Location:</span>
+                <input type="text" class="form-control" />
+                
+            </div>
+        </div>
+        <br/><br/>
+        <div class="btn-group">
+        <button type="button" class="btn send">SEND</button>
+        </div>
+    </div>
+</div>
+</div>
+     
            
            
     )

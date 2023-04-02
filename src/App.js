@@ -1,22 +1,15 @@
-import MainPage from "./pages/mainpage/MainPage";
 
-import ViewBusPage from "./pages/ViewBusPage";
 import { Route, Routes } from "react-router-dom"
-import HelpPage from "./pages/HelpPage";
-
-import Homepage from "./pages/Homepage/Homepage";
-import DashBoard from "./pages/dashboard/DashBoard";
-import DashBoardPage from "./pages/dashboard";
 
 import Footer from "./components/footer/Footer";
-import HelpPageConductor from "./pages/HelpPage";
+import HelpPageConductor from "./pages/HelpPage conductor/HelpPage";
 import DashBoardConductor from "./pages/dashboard conductor/DashBoardConductor";
 import DashBoardPageConductor from "./pages/dashboard conductor";
 import ProfilePage from "./pages/Profile conductor";
 import EditProfile from "./pages/Edit Profile conductor/components/EditProfile";
-import MySchedule from "./pages/My Schedule conductor/MySchedule"
+import MySchedulePage from "./pages/My Schedule conductor/components/MySchedule"
 import EmergencyPage from "./pages/Emergancy conductor";
-
+import ScanPage from "./pages/scan conductor/Scan"
 
 
 function App() {
@@ -27,11 +20,12 @@ function App() {
 
         
         <Route path="/" element={<DashBoardPageConductor/>} />
+        <Route path="/Scan" element={<ScanPage/>} />
         <Route path="/Profile" element={<ProfilePage/>} />
-        <Route path="/EditProfile" element={<EditProfile/>} />
-        <Route path="/MySchedule" element={<MySchedule/>} />
+        <Route path="/MySchedule" element={<MySchedulePage/>} />
         <Route path="/Emergency" element={<EmergencyPage/>} />
         <Route path="/HelpPage" element={<HelpPageConductor/>} />
+
       </Routes>
         
          

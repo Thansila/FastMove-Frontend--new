@@ -1,6 +1,6 @@
 import React  from 'react';
 import ConductorProfilecard from '../../../components/ConductorProfileCard/ConductorProfileCard';
-
+import "./EditProfile.css"
 
 function Profile() {
 
@@ -8,14 +8,41 @@ function Profile() {
         
     
         
-        <><h2>Edit Profile </h2><div id="content" style={{ width: '1150px' }}>
+        <><h2>Edit Profile </h2><div id="content" style={{ width: '1000px' }}>
 
 
-            {/* <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-        For more information about DataTables, please visit the <a target="_blank"
-            href="https://datatables.net">official DataTables documentation</a>.</p> */}
-            <ConductorProfilecard />
-            <button type="button" class="btn btn-primary ml-1 mb-3 float-right"> EDIT</button>
+<div class="m-4">
+    <div class="row g-2">
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">
+                    <span class="bi-person"></span>
+                </span>
+                <input type="text" class="form-control" placeholder="Username"/>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="input-group">            
+                <input type="text" class="form-control" placeholder="Amount"/>
+                <span class="input-group-text">.00</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">https://www.</span>
+                <input type="text" class="form-control" placeholder="Domain name"/>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" placeholder="US Dollar"/>
+                <span class="input-group-text">.00</span>
+            </div>
+        </div>
+    </div>
+</div>
+            <button type="button" class="btn btn-primary ml-1 mb-3 float-right"> UPDATE</button>
         </div></>
 
 

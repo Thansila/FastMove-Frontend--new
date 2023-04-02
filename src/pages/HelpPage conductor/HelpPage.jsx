@@ -1,23 +1,30 @@
 import React from 'react'
-import Footer from '../../components/footer/Footer'
+import SideBar from "../../components/sidebar/SideBar";
+import TopBar from "../../components/ConducortopBar/TopBar";
 import Help from '../../components/Help/Help'
 
 
 export default function Helpsheet() {
   return (
-    <div>
 
-    <div class="container-fluid mr-5" style={{width: '1100px'}}>
-        <h1 class="h3 mb-2 text-gray-800">Help</h1>
-        
-        {/* <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-            For more information about DataTables, please visit the <a target="_blank"
-                href="https://datatables.net">official DataTables documentation</a>.</p> */}
-        <Help/>
-  
-    </div>
-    <Footer/>
+    
+<>
+        {/*This is Schedule page*/}
+        <div>
+        <div className="ScanPage">
+        <div className="body">
+        <div className="Topbar"> <TopBar/></div>
+        <div className="flex">
+        <div className="sidebar"> <SideBar/></div>
+        <div class="container-fluid mr-5" style={{ width: '1100px' }}>
+        <h2 class="black">Help</h2>
 
-</div>
+        <Help />
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </div></>
   )
 }
