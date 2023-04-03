@@ -8,6 +8,7 @@ import GetStarted from "./pages/Homepage";
 import DashBoard from "./pages/dashboard/DashBoard";
 import DashBoardPage from "./pages/dashboard";
 import BusRegPage from "./pages/busReg";
+import OwnerProfile from "./pages/OwnerProfilePage";
 import Footer from "./components/footer/Footer";
 import ADashBoard from "./pages/Adashboard/ADashBoard";
 import ADashBoardPage from "./pages/Adashboard";
@@ -28,13 +29,14 @@ import Signin from "./pages/SigninCharPage";
 import Homepage from "./pages/Homepage/Homepage";
 import SigninCharPage from "./pages/SigninCharPage/SigninCharPage";
 
+
 function App() {
   return (
     <div className="App">
       <div >
       <Routes>
       
-        <Route path="/" element={<Homepage/>} />
+        <Route path="/" element={<GetStarted/>} />
         <Route path="/SignInchar" element={<Signin/>} />
 
         <Route path="/Busfarepage" element={<Busfarepagein />} />
@@ -48,9 +50,9 @@ function App() {
         <Route path="/ViewBuses" element={<ViewBusPage/>} />
         <Route path="/HelpPage" element={<HelpPage/>} />
         <Route path="/HelpPage" element={<HelpPage/>} />
+        <Route path="/OwnerProfile" element={<OwnerProfile/>} />
         
-      </Routes>
-        
+      </Routes>     
          
       </div>
     </div>

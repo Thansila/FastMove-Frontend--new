@@ -16,8 +16,10 @@ export default function ViewBusescard() {
                             <th>Id</th>
                             <th>Bus No</th>
                             <th>Bus Route</th>
-                            <th>Bus Lisence</th>
-                            <th>Eco Certificate</th>
+                            <th>Bus Type</th>
+                            <th>Number of seats</th>
+                            <th>Lisence renewed date</th>
+                            <th>Date to update lisence</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -27,36 +29,17 @@ export default function ViewBusescard() {
                             <td>1</td>
                             <td>NP:4682</td>
                             <td>Colombo-Kandy</td>
-                            <td>Pdf file</td>
-                            <td>Pdf file</td>
+                            <td>Semi-Luxury</td>
+                            <td>54</td>
+                            <td>2022/10/25</td>
+                            <td>2023/10/24</td>
                             <th>
                                 <button type="button" class="btn btn-primary ml-1">Update</button>
+                                <br/> <br/> 
                                 <button type="button" class="btn btn-warning ml-1">Delete</button>
                             </th>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>NP:7982</td>
-                            <td>Colombo-Kalutara</td>
-                            <td>Pdf file</td>
-                            <td>Pdf file</td>
-                            <th>
-                                <button type="button" class="btn btn-primary ml-1">Update</button>
-                                <button type="button" class="btn btn-warning ml-1">Delete</button>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>NS:7629</td>
-                            <td>Colombo-Mathale</td>
-                            <td>Pdf file</td>
-                            <td>Pdf file</td>
-                            <th>
-                                <button type="button" class="btn btn-primary ml-1">Update</button>
-                                <button type="button" class="btn btn-warning ml-1">Delete</button>
-                            </th>
-                        </tr>
-                  
+
                     </tbody>
                 </table>
             </div>

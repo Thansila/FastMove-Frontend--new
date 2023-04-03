@@ -11,13 +11,10 @@ export default function BusownersideBar() {
       <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
         
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-            <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+            <div className='Logobox'>
+                Logo
             </div>
-            <Link to='/' class="nav-link" style={{color: "white"}}>
-                <div class="mx-3">FastMove</div>
-            </Link>
-            
+        
         </a>
 
         
