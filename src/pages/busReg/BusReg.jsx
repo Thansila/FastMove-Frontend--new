@@ -17,7 +17,6 @@ export default function BusReg(props) {
             For more information about DataTables, please visit the <a target="_blank"
                 href="https://datatables.net">official DataTables documentation</a>.</p> */}
         <BusRegcard/>
-        <button type="button" class="btn btn-primary ml-1 mb-3">ADD BUS</button>
     </div>
 
 

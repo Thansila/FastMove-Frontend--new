@@ -8,6 +8,7 @@ import GetStarted from "./pages/Homepage";
 import DashBoard from "./pages/dashboard/DashBoard";
 import DashBoardPage from "./pages/dashboard";
 import BusRegPage from "./pages/busReg";
+import OwnerProfile from "./pages/OwnerProfilePage";
 import Footer from "./components/footer/Footer";
 import ADashBoard from "./pages/Adashboard/ADashBoard";
 import ADashBoardPage from "./pages/Adashboard";
@@ -49,6 +50,7 @@ function App() {
         <Route path="/ViewBuses" element={<ViewBusPage/>} />
         <Route path="/HelpPage" element={<HelpPage/>} />
         <Route path="/HelpPage" element={<HelpPage/>} />
+        <Route path="/OwnerProfile" element={<OwnerProfile/>} />
         
       </Routes>     
          

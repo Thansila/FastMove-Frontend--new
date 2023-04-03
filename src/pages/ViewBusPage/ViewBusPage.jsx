@@ -15,8 +15,8 @@ export default function ViewBus() {
                     href="https://datatables.net">official DataTables documentation</a>.</p> */}
             <ArrivalTable/>
         </div>
-        <Footer/>
 
+        <Footer/>
     </div>
   )
 }
