@@ -63,6 +63,13 @@ import './index.css';
 function HomePage() {
 
   const{loginWithRedirect}=useAuth0();
+
+  const handleLogin=()=>{
+    loginWithRedirect({
+      redirect_uri:'https://localhost:3000/BusReg',
+    });
+  };
+
   return (
     <div>
       <header> 
@@ -79,7 +86,7 @@ function HomePage() {
         <img src={logo} className="Home--logo"/>
         <h1>Book smart-Travel safe</h1>
         <p> Smart Bus Pass booking application to book your ticket smart and conveniently</p>
-        <button  onClick={() => loginWithRedirect()}>Get Started</button>
+        <button  onClick={(handleLogin)}>Get Started</button>
       </main>
       <footer>
         &copy; 2023 FastMove | All rights reserved

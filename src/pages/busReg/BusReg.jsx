@@ -17,6 +17,7 @@ export default function BusReg(props) {
             For more information about DataTables, please visit the <a target="_blank"
                 href="https://datatables.net">official DataTables documentation</a>.</p> */}
         <BusRegcard/>
+        <Footer/>
     </div>
 
 
