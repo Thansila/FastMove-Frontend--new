@@ -16,7 +16,7 @@ export default function BusRegPage(){
                 <div className="Dash"> <BusReg/></div>            
                    
                 </div>
-                    <Footer/>
+                    
          </div>
 
     )
