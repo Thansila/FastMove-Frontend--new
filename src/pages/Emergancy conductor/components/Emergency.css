@@ -11,7 +11,10 @@
   .black{
     color:black;
   }
-
+ 
+.form-control:hover{
+  border-color: black;
+}
   .btn {
     border: none;
     padding: 10px 28px; 

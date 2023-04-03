@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 
 export default function TopBar() {
   return (
+
+    //top navigation bar
+    //search
     <nav class="navbar navbar-expand navbar-light bg-white topbar  static-top shadow">   
         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                             <i class="fa fa-bars"></i>
@@ -22,7 +25,7 @@ export default function TopBar() {
 
             
 
-            
+        {/* conductor dropdown with logout ,profile and settings*/}     
             <li class="nav-item dropdown no-arrow"> 
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

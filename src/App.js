@@ -6,16 +6,18 @@ import HelpPageConductor from "./pages/HelpPage conductor/HelpPage";
 import DashBoardConductor from "./pages/dashboard conductor/DashBoardConductor";
 import DashBoardPageConductor from "./pages/dashboard conductor";
 import ProfilePage from "./pages/Profile conductor";
-import EditProfile from "./pages/Edit Profile conductor/components/EditProfile";
 import MySchedulePage from "./pages/My Schedule conductor/components/MySchedule"
 import EmergencyPage from "./pages/Emergancy conductor";
 import ScanPage from "./pages/scan conductor/Scan"
+
 
 
 function App() {
   return (
     <div className="App">
       <div >
+
+     
       <Routes>
 
         
@@ -28,7 +30,8 @@ function App() {
 
       </Routes>
         
-         
+      
+
       </div>
     </div>
     

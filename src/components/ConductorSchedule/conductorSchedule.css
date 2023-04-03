@@ -1,9 +1,11 @@
+
 .input{
     border-radius: 0.5rem;
     display:inline-flex;
     margin-right: 100px;
     width: 200px;
     margin-left: 10px;
+    
 }
 
 .table th.header {

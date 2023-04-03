@@ -3,6 +3,7 @@ import "./dashboard.css"
 import { Route, Routes, Link } from "react-router-dom"
 
 
+
 export default function DashBoardConductor() {
   return (
 
@@ -15,6 +16,34 @@ export default function DashBoardConductor() {
     </div>
 
     <h1 class="fontcolor">Welcome Nimal De Silva</h1>
+    <br/>
+    <div class="row">
+
+    <div class="col-md-3">
+    <h4>Scan QR code</h4>
+    <img src={process.env.PUBLIC_URL + '/images/scan.jpg'} alt="scan" />
+    <p>You can scan passengers' QR code using Scan facility of this system</p>
+    </div>
+    
+    <br/>
+    <div class="col-md-3">
+    <h4>Update Profile</h4>
+    <img src={process.env.PUBLIC_URL + '/images/update.avif'} alt="update" width="225px" />
+    <p>You can update your information to the system.</p>
+    </div>
+    <br/>
+    <div class="col-md-3">
+    <h4>Inform Emergency</h4>
+    <img src={process.env.PUBLIC_URL + '/images/emergency01.png'} alt="emergency" width="225px" height="220px" />
+    <p>You can inform emergency cases like accidents,delays,breakdown etc through this system</p>
+    </div>
+    <div class="col-md-3">
+    <h4>View Time Schedule</h4>
+    <img src={process.env.PUBLIC_URL + '/images/timetable.jpg'} alt="timetable" width="225px" height="220px" />
+    <p>You can scan passengers' QR code using Scan facility of this system</p>
+    </div>
+    </div>
+
     {/*
     <div class="row">
     <div class="col-xl-3 col-md-6 mb-4">

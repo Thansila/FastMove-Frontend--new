@@ -28,6 +28,22 @@
 .body{
 overflow: hidden;
 }
+
+.btn1 {
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    
+  }
+  
+.cap{background-color: rgb(3, 29, 3); 
+    color: white;
+    margin-top: -9px;
+    margin-left: 700px;
+   
+  } 
+.cap:hover {background-color: #062b07;}
+  
   
   
   

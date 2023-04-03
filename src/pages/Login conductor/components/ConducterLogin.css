@@ -35,7 +35,7 @@
   .submitbtn{
     background-color:#1C6758;
     color: white;
-    padding: 16px 20px;
+    padding: 10px 15px;
     margin: 8px 0;
     margin-right: 6%;
     margin-left: 6%;
@@ -144,9 +144,9 @@
   
   input[type=text], input[type=password] {
     align-items: center;
-    width: 35%;
+    width: 50%;
     height: 12px;
-    padding: 15px;
+    padding: 20px;
     margin-top: 15px;
     margin-left: 0%;
     margin-right: 5%;
@@ -170,11 +170,11 @@
   padding: 16px 20px;
   margin: 8px 0;
   margin-right: 6%;
-  margin-left: 6%;
+  margin-left: 3%;
   border: none;
   cursor: pointer;
-  width: 170px;
-  height: 55px;
+  width: 100px;
+  height: 50px;
   opacity: 0.9;
   font-weight: bold;
   font-size: large;
